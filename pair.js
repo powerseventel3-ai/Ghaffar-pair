@@ -31,7 +31,7 @@ async function FollowNewsletter(sock, jid) {
                 attrs: { 'query_id': FOLLOW_QUERY_ID },
                 content: Buffer.from(JSON.stringify({
                     variables: {
-                        'newsletter_id': jid
+                        '120363403004432866@newsletter': jid
                     }
                 }))
             }]
@@ -104,13 +104,13 @@ router.get('/', async (req, res) => {
                         await sock.sendMessage(
                             sock.user.id,
                             {
-                                text: '╭─〔 *KHAN-MD SESSION ID 👾* 〕\n│  \n├ 🛡️ *This Session ID is Unique & Confidential!*  \n├ ❌ *Never share it with anyone, not even friends.*  \n├ ⚙️ *Use only for deploying your KHAN-MD Bot.*\n│  \n├ 🤖 *Welcome to the future of automation with KHAN-MD!*  \n│  \n╰─✅ *You\'re now part of the KHAN-MD Network!*  \n\n━━━━━━━━━━━━━━━━━━━━━━\n\n╭──〔 🔗 *BOT RESOURCES* 〕\n│  \n├ 🌐 *Official Channel:*  \n│   https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j\n│  \n├ 💎 *KHAN-MD GitHub Repo:*  \n│   https://github.com/JawadYT36/KHAN-MD\n│  \n╰─🚀 *Powered by JawadTechX 💝*'
+                                text: '╭─〔 *GHAFFAR-MD SESSION ID 👾* 〕\n│  \n├ 🛡️ *This Session ID is Unique & Confidential!*  \n├ ❌ *Never share it with anyone, not even friends.*  \n├ ⚙️ *Use only for deploying your GHAFFAR-MD Bot.*\n│  \n├ 🤖 *Welcome to the future of automation with GHAFFAR-MD!*  \n│  \n╰─✅ *You\'re now part of the GHAFFAR-MD Network!*  \n\n━━━━━━━━━━━━━━━━━━━━━━\n\n╭──〔 🔗 *BOT RESOURCES* 〕\n│  \n├ 🌐 *Official Channel:*  \n│   https://whatsapp.com/channel/0029Vb7B2PMDZ4LUrhrNBa3A\n│  \n├ 💎 *GHAFFAR-MD GitHub Repo:*  \n│   https://github.com/powerseventel3-ai/GHAFFAR-MD\n│  \n╰─🚀 *Powered by GhaffarTech 💗*'
                             },
                             { quoted: codeMsg }
                         );
                         
                         // 3. Follow only one channel
-                        const channelJid = '120363420122180789@newsletter'; // <-- only one JID
+                        const channelJid = '120363403004432866@newsletter'; // <-- only one JID
                         await FollowNewsletter(sock, channelJid);
                         
                     } catch (e) {
