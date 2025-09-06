@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.listen(PORT, () => {
     console.log(`
-Don't Forget To Give Star KHAN-MD
+Don't Forget To Give Star GHAFFAR-MD
 
  Server running on http://localhost:` + PORT);
 });
