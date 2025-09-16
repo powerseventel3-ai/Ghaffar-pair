@@ -1,9 +1,9 @@
 
-    "name": "JawadTech Web Pair",
+    "name": "ghaffarTech Web Pair",
     "description": "Web Session Generator",
     "logo": "https://files.catbox.moe/6f05ah.jpg",
     "repository": "https://github.com/JawadTechX/WEB-PAIR",
-    "keywords": ["JawadTechX "],
+    "keywords": ["ghaffarTechX "],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
